@@ -1,0 +1,79 @@
+Nama : Dwi nuraeni
+Kelas : TI.17.D3
+NIM : 311710391
+
+1. Dalam arsitektur komputer ada 4 komponen Utama CPU, Sebutkan dan jelaskan kegunanaanya?
+2. Control Unit adalah bagian dari komputer yang menggenerasi signal yang mengontrol operasi
+komputer, sebutkan jenis apa saja yang termasuk Control Unit?
+3. Set instruksi (instruction set) adalah sekumpulan lengkap instruksi yang dapat di mengerti oleh sebuah
+CPU. Set instruksi sering juga disebut sebagai bahasa mesin . sebutkan macam-macam format
+Instruksi?
+4. Direct Memory Access (DMA) adalah suatu metode transfer data dari memori komputer atau RAM ke
+suatu bagian dari komputer tanpa memprosesnya menggunakan CPU. Sebutkan kelebihan
+menggunakan DMA ?
+5. Pipeline adalah mesin yang melaksanakan beberapa komputasi yang berbeda secara bersama-sama
+,namun pada saat itu setiap komputasi akan berada dalam tahapan eksekusi yang berbeda. Sebutkan
+dua kategori Pipeline ?
+
+jawab:
+1. 
+a. perangkat masukan (input device)
+	Alat yang digunakan untuk menerima masuk data dan program yang akan diproses di dalam computer.
+Berfungsi sebagai media untuk memasukkan data dari luar ke dalam suatu memori dan processor untuk menghasilkan 
+informasi yang diperlukan.
+b. perangkat pemrosesan (CPU)
+	sebagai pemroses dan pengolah data yang dapat menghasilkan suatu informasi yang diperlukan.
+c. perangkat penyimpanan (storage device)
+	media yang dapat menyimpan data secara permanen dalam jangka waktu panjang pada suatu ketika dapat 
+diambil atau dibaca kembali.
+d. perangkat keluaran (output device) 
+	 alat yang berfungsi untuk mengeluarkan hasil pemrosesan ataupun pengolahan data yang berasal dari CPU kedalam 
+suatu media yang dapat dibaca oleh manusia ataupun dapat digunakan untuk penyimpanan data hasil daripada proses.
+
+2.
+1. Control Unit Microprogrammed
+*Untuk menggenerasi signal kontrol dengan cara membaca dan mengeluarkan
+atau mengalirkan mikroinstruksi.
+2. Control Unit Konvensional /Hard-Wired
+*Untuk menggenerasi signal kontrol.
+*Digunakan pada komputer berkinerja tinggi (super komputer) dan RISC
+*Komputer Mainframe sering menggunakannya untuk aritmetik, logika dan shift
+sederhana dan instruksi akses memori.
+*CU Konvensional menghasilkan suatu rangkaian mirointruksi.
+*Perbedaannya dengan CU Microprogrammed terletak pada gerbang logikanya
+menggenerasi semua mikroorder sehingga eksekusinya lebih cepat.
+
+3.
+1. Format instruksi 3 alamat
+Mempunyai bentuk umum seperti : [OPCODE][AH],[AO1],[AO2]. Terdiri dari satu alamt
+hasil, dan dua alamat operand
+2. Format Instruksi 2 alamat
+Mempunyai bentuk umum : [OPCODE][AH],[AO]. Terdiri dari satu alamat
+hasil merangkap operand, satu alamat operand
+3. Format instruksi 1 Alamat
+Mempunyai bentuk umum : [OPCODE][AO]. Terdiri dari satu alamat
+operand, hasil disimpan di accumulator
+4. Format instruksi 0 alamat
+Mempunyai bentuk umum : [OPCODE]. Terdiri dari semua alamat operand implicit,
+disimpan dalam bentuk stack. Operasi yang biasanya membutuhkan 2 operand, akan
+mengambil isi stack paling atas dan dibawahnya missal : SUB yang mempunyai arti
+dalam algoritmik : S[top]:=S[top-1]-S[top] dan arti dalam bentuk penjelasan :
+kurangkan isi stack no2 dari atas dengan isi stack paling atas, kemudian simpan hasilnya
+di stack paling atas, untuk mengoprasikan ada beberapa instruksi khusus stack PUSH
+dan POP.
+
+4.  
+1. Dapat menirukan sebagian fungsi processor. 
+
+2. Dapat mengambil alih fungsi processor yang berhubungan dengan transfer data.
+
+3. CPU dapat melakukan menejemen operasi baca tulis (transfer data) dengan baik dan juga dapat menyelesaikan instruksi yang lain.
+
+4. Mendapat informasi tentang jumlah data bit yang ditransfer, alamat dari device dan memory yang diperlukan dan arah dari aliran data.
+
+5.
+1. Pipeline Unit Arithmetic
+Berguna untuk operasi vektor
+2. Pipeline Unit Instruction
+Berguna untuk komputer yang mempunyai set instruksi yang
+sederhana
